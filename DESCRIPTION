@@ -1,0 +1,15 @@
+Package: captchaTJRJData
+Title: TJRJ Captcha Data
+Version: 0.0.0.9000
+Authors@R: person("Julio", "Trecenti", email = "j@jtrecenti.com", role = c("aut", "cre"))
+Description: Tools to download TJRJ captcha data.
+Depends: R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: purrr,
+    progress,
+    stringr,
+    lubridate,
+    httr
